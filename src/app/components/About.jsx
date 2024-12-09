@@ -10,8 +10,8 @@ function About() {
 					className="lg:w-[400px] md:w-[300px] fancy-border-radius"
 					width={400}
 					height={400}
-					src="/IMG-20230524-WA0019.jpg"
-					alt="#"
+					src="/profile.jpg"
+					alt="profile"
 				/>
 			</div>
 			<div className="flex flex-col items-center justify-center w-[40%] h-[100%]">

@@ -9,33 +9,55 @@
 /* These are the KEY styles - you can add them directly to any object you want in your project */
 .fancy-border-radius {
 	border-radius: 50% 50% 30% 70% / 60% 37% 63% 40%;
-	background: #ad5389;
-	background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
-	background: linear-gradient(to right, #3c1053, #ad5389);
+	filter: drop-shadow(0px 5px 5px theme("colors.color3"));
 }
-.btn {
-	filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.5));
-}
+
 .btn:hover {
 	text-decoration: underline;
-	background: orange;
+	background: theme("colors.color2");
+	color: theme("colors.color1");
 	transition: 0.25s ease-in-out;
 }
 .bounce {
-	filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.5));
+	filter: drop-shadow(0px 5px 5px theme("colors.color3"));
 }
 .bounce:hover {
 	transition: 0.25s ease-in-out;
-	filter: drop-shadow(0px 15px 5px rgba(0, 0, 0, 0.5));
+	filter: drop-shadow(0px 15px 5px theme("colors.color3"));
 	display: inline-block;
-	animation: bounce; /* referring directly to the animation's @keyframe declaration */
-	animation-duration: 1s; /* don't forget to set a duration! */
+	animation: bounce;
+	animation-duration: 1s;
 }
 
 .card-h {
-	filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.5));
+	filter: drop-shadow(0px 5px 5px theme("colors.color3"));
 }
 .card-h:hover {
 	transition: 0.25s ease-in-out;
-	filter: drop-shadow(0px 15px 5px rgba(0, 0, 0, 0.5));
+	filter: drop-shadow(0px 15px 5px theme("colors.color2"));
+}
+
+.nav {
+	background: theme("colors.color1");
+	background: linear-gradient(
+		0deg,
+		theme("colors.color1") 0%,
+		theme("colors.color2") 100%
+	);
+}
+.foot {
+	background: theme("colors.color1");
+	background: linear-gradient(
+		0deg,
+		theme("colors.color2") 0%,
+		theme("colors.color1") 100%
+	);
+}
+.antropos-text div {
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.antropos-text:hover div {
+	opacity: 1;
 }

@@ -5,13 +5,7 @@ import "../styles/globals.css";
 
 function Card({ titulo, src, imagen, valor }) {
 	return (
-		<div
-			className={
-				valor === -1
-					? "card-h flex w-[485px] h-[250px] p-3 rounded-lg bg-red-400"
-					: "card-h flex w-[485px] h-[250px] p-3 rounded-lg bg-green-400"
-			}
-		>
+		<div className="card-h flex w-[485px] h-[250px] p-3 rounded-lg bg-color4">
 			<div className="w-[40%] ">
 				<h3 className="flex text-center items-center justify-center h-[50%] text-[1.75em] uppercase">
 					{titulo}
@@ -26,7 +20,7 @@ function Card({ titulo, src, imagen, valor }) {
 					NO TERMINADO
 				</div>
 				<Link
-					className="btn h-[25%] aspect-square w-[50%] mx-auto flex items-center justify-center rounded-lg bg-red-200"
+					className="bg-color1 text-color4 btn h-[25%] aspect-square w-[50%] mx-auto flex items-center justify-center rounded-lg"
 					target="_blank"
 					href={src}
 				>

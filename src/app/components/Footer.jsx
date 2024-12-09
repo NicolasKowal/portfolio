@@ -1,18 +1,12 @@
-"use client";
 import React from "react";
-import setMode from "../store/setMode";
+import "../styles/globals.css";
+import Titulo from "./Titulo";
+import Contact from "./Contact";
 
 function Footer() {
-	const { count } = setMode();
 	return (
-		<footer
-			className={
-				!count
-					? "flex items-center justify-center h-[7vh] text-text bg-color"
-					: "flex items-center justify-center h-[7vh] text-colortext bg-colorbg"
-			}
-		>
-			footer
+		<footer className="h-[10vh] w-[100%] bg-color4 flex items-center justify-center">
+			<p className="text-[1.5em]">Si podes imaginarlo, podes programarlo</p>
 		</footer>
 	);
 }

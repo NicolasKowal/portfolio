@@ -3,7 +3,7 @@ import Card from "./Card";
 
 function Links() {
 	return (
-		<div className="mx-auto p-10 w-[80%] grid grid-cols-2 gap-x-10 gap-y-20 justify-items-center bg-slate-800">
+		<div className="mx-auto p-10 w-[80%] grid grid-cols-2 gap-x-10 gap-y-20 justify-items-center">
 			<Card
 				target="_blank"
 				titulo="refugio austral"

@@ -4,12 +4,12 @@ import "../styles/globals.css";
 
 function Contact() {
 	return (
-		<div className="bg-green-300 pt-[30px] pb-[30px] h-[200px] flex items-center">
-			<ul className="flex items-center justify-around w-[50%] mx-auto">
+		<>
+			<ul className="w-[75%] flex items-center justify-around">
 				<li>
 					<a href="">
 						<img
-							className="h-[100px] bounce"
+							className="h-[150px] bounce"
 							src="/media/linkedin.png"
 							alt="linkedin"
 						/>
@@ -18,7 +18,7 @@ function Contact() {
 				<li>
 					<a href="">
 						<img
-							className="h-[100px] bounce"
+							className="h-[150px] bounce"
 							src="/media/github.png"
 							alt="github"
 						/>
@@ -27,7 +27,7 @@ function Contact() {
 				<li>
 					<a href="">
 						<img
-							className="h-[100px] bounce"
+							className="h-[150px] bounce"
 							src="/media/whatsapp.png"
 							alt="whatsapp"
 						/>
@@ -36,14 +36,14 @@ function Contact() {
 				<li>
 					<a href="">
 						<img
-							className="h-[100px] bounce"
+							className="h-[150px] bounce"
 							src="/media/gmail.png"
 							alt="gmail"
 						/>
 					</a>
 				</li>
 			</ul>
-		</div>
+		</>
 	);
 }
 

@@ -4,20 +4,39 @@ import Tecnologias from "./components/Tecnologias";
 import About from "./components/About";
 import Links from "./components/Links";
 import Contact from "./components/Contact";
+import Titulo from "./components/Titulo";
 export default function Home() {
 	return (
 		<div>
 			<main>
-				<section id="AcercaDe" className="bg-red-400 pt-20 pb-20">
+				<section
+					id="AcercaDe"
+					className="lg:h-[80vh] flex flex-col items-center justify-center"
+				>
 					<About />
 				</section>
-				<section id="Tecnologias" className="bg-violet-400">
+				<hr className="border-t-2 bg-color4" />
+				<section
+					id="Tecnologias"
+					className="lg:h-[80vh] flex flex-col items-center justify-center"
+				>
+					<Titulo titulo={"tecnologias que uso"} />
 					<Tecnologias />
 				</section>
-				<section id="Web" className="bg-orange-300">
+				<hr className="border-t-2 bg-color4" />
+				<section
+					id="Web"
+					className="lg:min-h-[100vh] flex flex-col items-center justify-center"
+				>
+					<Titulo titulo={"mis paginas mas recientes"} />
 					<Links />
 				</section>
-				<section id="Contacto">
+				<hr className="border-t-2 bg-color4" />
+				<section
+					id="Contacto"
+					className="lg:min-h-[50vh] flex flex-col items-center justify-center"
+				>
+					<Titulo titulo={"contacto"} />
 					<Contact />
 				</section>
 			</main>

@@ -59,7 +59,7 @@ function Contact() {
 					<a
 						className="flex flex-col items-center justify-center"
 						target="_blank"
-						href="mailto:nicolas.kowal95@gmail.com?subject=Portfolio&body=Hola,%20quiero%20más%20información."
+						href="mailto:nicolas.kowal95@gmail.com"
 					>
 						<img
 							className="h-[150px] bounce"

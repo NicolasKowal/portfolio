@@ -10,15 +10,12 @@ export default function Home() {
 			<main>
 				<section
 					id="AcercaDe"
-					className="h-[100vh] flex items-center justify-center"
+					className="min-h-[80vh] flex items-center justify-center"
 				>
 					<About />
 				</section>
 				<hr className="border-t-2 bg-color4" />
-				<section
-					id="Tecnologias"
-					className="h-[100vh] flex flex-col items-center justify-center"
-				>
+				<section id="Tecnologias" className="mmin-h-[100vh]">
 					<Titulo titulo={"tecnologías que uso"} />
 					<Tecnologias />
 				</section>
@@ -33,7 +30,7 @@ export default function Home() {
 				<hr className="border-t-2 bg-color4" />
 				<section
 					id="Contacto"
-					className="min-h-[80vh] flex flex-col items-center justify-center"
+					className="min-h-[50vh] flex flex-col items-center justify-around"
 				>
 					<Titulo titulo={"contacto"} />
 					<Contact />

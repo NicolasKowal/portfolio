@@ -5,7 +5,7 @@ import "../styles/globals.css";
 function Contact() {
 	return (
 		<>
-			<ul className="sm:w-[100%] w-[75%] flex items-center justify-around sm:text-[.7em] md:text-[.9em] lg:text-[1em] sm:h-[25vh]">
+			<ul className="sm:w-[100%] sm:grid-cols-2 sm:grid sm:gap-4 w-[75%] flex items-center justify-around sm:text-[.7em] md:text-[.9em] lg:text-[1em] sm:h-[25vh]">
 				<li>
 					<a
 						className="flex flex-col items-center justify-center"
@@ -13,7 +13,7 @@ function Contact() {
 						href="https://www.linkedin.com/in/nicolaskowal/"
 					>
 						<img
-							className="sm:h-[80px] md:h-[100px] lg:h-[150px] 2xl:h-[200px] bounce"
+							className="sm:h-[100px] lg:h-[150px] 2xl:h-[200px] bounce"
 							src="/media/linkedin.png"
 							alt="linkedin"
 						/>
@@ -29,7 +29,7 @@ function Contact() {
 						href="https://github.com/NicolasKowal"
 					>
 						<img
-							className="sm:h-[80px] md:h-[100px] lg:h-[150px] 2xl:h-[200px] bounce"
+							className="sm:h-[100px] lg:h-[150px] 2xl:h-[200px] bounce"
 							src="/media/github.png"
 							alt="github"
 						/>
@@ -45,7 +45,7 @@ function Contact() {
 						href="https://wa.me/+5401125948523"
 					>
 						<img
-							className="sm:h-[80px] md:h-[100px] lg:h-[150px] 2xl:h-[200px] bounce"
+							className="sm:h-[100px] lg:h-[150px] 2xl:h-[200px] bounce"
 							src="/media/whatsapp.png"
 							alt="whatsapp"
 						/>

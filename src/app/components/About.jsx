@@ -18,7 +18,7 @@ function About() {
 				<h1 className="h-[30%] sm:w-[100%] w-[50%] flex items-center justify-center text-[2.5em] mx-auto text-center">
 					Kowalkiewicz Nicolas
 				</h1>
-				<p className="flex items-center justify-center h-[50%] pl-1 pr-1">
+				<p className="flex items-center justify-center h-[50%] pl-1 pr-1 lg:">
 					¡Hola! Tengo 29 años, soy desarrollador frontend con experiencia en
 					React y estudiante de una tecnicatura en desarrollo de software. Me
 					apasiona crear interfaces funcionales y atractivas, enfocándome en la

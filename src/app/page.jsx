@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import Tecnologias from "./components/Tecnologias";
 import About from "./components/About";

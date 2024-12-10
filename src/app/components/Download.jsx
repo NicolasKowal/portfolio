@@ -8,7 +8,7 @@ function Download() {
 			download
 			href={"/Nicolas-Kowalkiewicz.pdf"}
 		>
-			<div c>
+			<div>
 				<MdOutlineCloudDownload />
 			</div>
 			<div>Descargar CV</div>

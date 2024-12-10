@@ -61,3 +61,12 @@
 .antropos-text:hover div {
 	opacity: 1;
 }
+
+.footer {
+	background: theme("colors.color4");
+	background: linear-gradient(
+		0deg,
+		theme("colors.color4") 0%,
+		theme("colors.color1") 100%
+	);
+}

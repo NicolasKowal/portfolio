@@ -9,7 +9,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<link rel="icon" href="/favicon.png" />
+			<head>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<link rel="icon" href="/favicon.png" />
+			</head>
 			<body className="bg-color1">
 				<Navbar />
 				<main className="lg:w-[90%] mx-auto bg-color1 font-roboto">

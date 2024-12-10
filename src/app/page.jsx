@@ -18,9 +18,9 @@ export default function Home() {
 				<hr className="border-t-2 bg-color4" />
 				<section
 					id="Tecnologias"
-					className="lg:h-[80vh] flex flex-col items-center justify-center"
+					className="flex flex-col items-center justify-center"
 				>
-					<Titulo titulo={"tecnologias que uso"} />
+					<Titulo titulo={"tecnologías que uso"} />
 					<Tecnologias />
 				</section>
 				<hr className="border-t-2 bg-color4" />
@@ -28,7 +28,7 @@ export default function Home() {
 					id="Web"
 					className="lg:min-h-[100vh] flex flex-col items-center justify-center"
 				>
-					<Titulo titulo={"mis paginas mas recientes"} />
+					<Titulo titulo={"mis páginas más recientes"} />
 					<Links />
 				</section>
 				<hr className="border-t-2 bg-color4" />

@@ -5,27 +5,39 @@ import "../styles/globals.css";
 function Navbar() {
 	return (
 		<div className=" nav bg-color2 z-50 h-[10vh] flex items-center justify-between w-[100%] mx-auto top-0 sticky">
-			<p className="sm:text-[1.5em] md:text-[2em] h-[100%] w-[10%] flex items-center justify-center text-[3em]">
+			<p className="sm:hidden lg:flex lg:text-[2em] h-[100%] w-[10%] flex items-center justify-center hover:text-color4">
 				NK
 			</p>
-			<ul className="sm:text-[.6em] md:text-[.75em] lg:text-[1em] h-[100%] w-[50%] font-bold flex items-center justify-around">
+			<ul className="sm:text-[.75em] sm:w-[100%] md:text-[.9em] lg:text-[1em] h-[100%] lg:w-[75%] 2xl:text-[1.1em] font-bold flex items-center justify-around">
 				<li>
-					<Link className="text-[1.1em] hover:underline" href={"#AcercaDe"}>
-						{"<Acerca-de-mi/>"}
+					<Link
+						className="text-[1.1em] hover:underline hover:text-color4"
+						href={"#AcercaDe"}
+					>
+						{"<Acerca-de-mí/>"}
 					</Link>
 				</li>
 				<li>
-					<Link className="text-[1.1em] hover:underline" href={"#Tecnologias"}>
-						{"<Tecnologias/>"}
+					<Link
+						className="text-[1.1em] hover:underline hover:text-color4"
+						href={"#Tecnologias"}
+					>
+						{"<Tecnologías/>"}
 					</Link>
 				</li>
 				<li>
-					<Link className="text-[1.1em] hover:underline" href={"#Web"}>
+					<Link
+						className="text-[1.1em] hover:underline hover:text-color4"
+						href={"#Web"}
+					>
 						{"<Webs/>"}
 					</Link>
 				</li>
 				<li>
-					<Link className="text-[1.1em] hover:underline" href={"#Contacto"}>
+					<Link
+						className="text-[1.1em] hover:underline hover:text-color4"
+						href={"#Contacto"}
+					>
 						{"<Contacto/>"}
 					</Link>
 				</li>

@@ -4,6 +4,7 @@ import About from "./components/About";
 import Links from "./components/Links";
 import Contact from "./components/Contact";
 import Titulo from "./components/Titulo";
+
 export default function Home() {
 	return (
 		<div>
@@ -15,7 +16,10 @@ export default function Home() {
 					<About />
 				</section>
 				<hr className="border-t-2 bg-color4" />
-				<section id="Tecnologias" className="mmin-h-[100vh]">
+				<section
+					id="Tecnologias"
+					className="min-h-[100vh] flex flex-col justify-around"
+				>
 					<Titulo titulo={"tecnologías que uso"} />
 					<Tecnologias />
 				</section>

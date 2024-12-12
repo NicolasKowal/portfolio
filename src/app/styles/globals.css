@@ -37,6 +37,14 @@
 	filter: drop-shadow(0px 15px 5px theme("colors.color2"));
 }
 
+.download {
+	filter: drop-shadow(0px 5px 5px theme("colors.color3"));
+}
+.download:hover {
+	transition: 0.25s ease-in-out;
+	filter: drop-shadow(0px 15px 5px theme("colors.color3"));
+}
+
 .nav {
 	background: theme("colors.color1");
 	background: linear-gradient(

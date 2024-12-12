@@ -11,10 +11,10 @@ module.exports = {
 				xs: "350px",
 			},
 			colors: {
-				color1: "#212121",
-				color2: "#98FF98",
-				color3: "#FFA500",
-				color4: "#F8F9FA",
+				color1: "#b2bd7e", //fondo
+				color2: "#749c75", //sombras
+				color3: "#6a5d7b", //hover
+				color4: "#F8F9FA", //texto
 			},
 		},
 	},

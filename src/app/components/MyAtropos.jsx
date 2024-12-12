@@ -8,7 +8,6 @@ function MyAtropos({ url, alt }) {
 	return (
 		<Atropos className="antropos-text" activeOffset={100} shadowScale={0}>
 			<Image alt={alt} height={150} width={150} src={url} />
-			<div className="flex justify-center capitalize text-color3">{alt}</div>
 		</Atropos>
 	);
 }

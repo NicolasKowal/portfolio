@@ -5,7 +5,7 @@ import "../styles/globals.css";
 
 function Card({ titulo, src, imagen, valor }) {
 	return (
-		<div className="card-h flex xs:w-[350px] w-[485px] h-[250px] p-3 rounded-lg bg-color4">
+		<div className="card-h flex xs:w-[350px] sm:w-[485px] h-[250px] p-3 rounded-lg bg-color4">
 			<div className="w-[40%] ">
 				<h3 className="flex text-center items-center justify-center h-[50%] xs:text-[1.5em] text-[1.75em] uppercase">
 					{titulo}
